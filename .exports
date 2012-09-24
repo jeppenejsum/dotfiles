@@ -1,5 +1,5 @@
 # Make vim the default editor
-export EDITOR="vim"
+export EDITOR="emacsclient"
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
 # Highlight section titles in manual pages
@@ -11,3 +11,10 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
+
+export LDFLAGS=-L/usr/local/opt/openssl/lib
+export CPPFLAGS=-I/usr/local/opt/openssl/include
+export DYLD_LIBRARY_PATH=/usr/local/opt/openssl/lib
+export JAVA_HOME=`/usr/libexec/java_home`
+export GRADLE_OPTS='-Xmx1600m -XX:MaxPermSize=256m -XX:+CMSClassUnloadingEnabled'
+export SBT_OPTS="-Xmx1600m -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
