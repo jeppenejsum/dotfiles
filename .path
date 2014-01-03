@@ -1,1 +1,1 @@
-export PATH=/Library/PostgreSQL/9.1/bin:/usr/local/bin:$PATH
+export PATH=/Library/PostgreSQL/9.1/bin:/usr/local/sbin:/usr/local/bin:$PATH
