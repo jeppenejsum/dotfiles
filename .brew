@@ -47,6 +47,7 @@ brew install emacs
 brew install gnutls
 brew install ispell
 brew install bash-completion
+brew install rbenv
 
 # Remove outdated versions from the cellar
 brew cleanup
